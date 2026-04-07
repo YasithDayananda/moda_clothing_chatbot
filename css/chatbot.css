@@ -1,0 +1,109 @@
+/* ✅ CHATBOT ICON (UPDATED FOR LOGO) */
+#chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* ✅ LOGO IMAGE STYLE */
+#chatbot-icon img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;        /* makes it round */
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* 🔥 HOVER EFFECT */
+#chatbot-icon img:hover {
+    transform: scale(1.1);
+}
+
+
+/* ✅ CHATBOT POPUP */
+#chatbot-popup {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 380px;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+
+/* ✅ HEADER */
+#chatbot-header {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/* ❌ CLOSE BUTTON */
+#chatbot-close {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* ✅ MESSAGE AREA */
+#chatbot-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+}
+
+
+/* ✅ FOOTER */
+#chatbot-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-top: 1px solid #eee;
+    background-color: #fff;
+}
+
+
+/* ✅ INPUT FIELD */
+#chatbot-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+
+/* ✅ SEND BUTTON */
+#send-btn {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+#send-btn:hover {
+    background-color: #555;
+}

@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! Welcome to Moda Clothing 😊", "Hi there! How can I help you?"]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Do you deliver?", "Shipping available?", "Delivery info"],
+      "responses": ["Yes! We deliver islandwide 🚚"]
+    },
+    {
+      "tag": "products",
+      "patterns": ["What do you sell?", "Categories?", "Products"],
+      "responses": ["We sell Men's, Women's, Unisex, and Accessories 👕"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you?", "Shop location"],
+      "responses": ["We are based in Sri Lanka 🇱🇰"]
+    },
+
+    {
+      "tag": "materials",
+      "patterns": [
+        "What material is this?",
+        "Fabric type?",
+        "Is this cotton?",
+        "What is the cloth made of?"
+      ],
+      "responses": [
+        "Our products are made from high-quality materials like cotton, polyester, and blends 🧵",
+        "Each product description includes fabric details 👍"
+      ]
+    },
+
+    {
+      "tag": "size_chart",
+      "patterns": [
+        "Size chart",
+        "What size should I choose?",
+        "Do you have sizes?",
+        "Size guide please"
+      ],
+      "responses": [
+        "We offer sizes from S to XXL 📏. Check our size chart for exact measurements.",
+        "You can find the size guide on each product page 👍"
+      ]
+    },
+
+    {
+      "tag": "fit_info",
+      "patterns": [
+        "Is it slim fit?",
+        "Regular fit or oversized?",
+        "How does it fit?"
+      ],
+      "responses": [
+        "We provide slim fit, regular fit, and oversized styles 👕",
+        "Check product descriptions to see fit type 👍"
+      ]
+    },
+
+    {
+      "tag": "price",
+      "patterns": [
+        "Price?",
+        "How much is this?",
+        "Cost of item?",
+        "Is it expensive?"
+      ],
+      "responses": [
+        "Prices are listed on each product page 💰",
+        "We offer affordable fashion with great quality 👍"
+      ]
+    },
+
+    {
+      "tag": "payment",
+      "patterns": [
+        "Payment methods?",
+        "Do you accept cash on delivery?",
+        "Can I pay online?"
+      ],
+      "responses": [
+        "We accept Cash on Delivery and online payments 💳",
+        "You can choose your payment method at checkout 👍"
+      ]
+    },
+
+    {
+      "tag": "returns",
+      "patterns": [
+        "Return policy?",
+        "Can I return items?",
+        "Exchange available?",
+        "Refund?"
+      ],
+      "responses": [
+        "Yes! We offer exchanges for size issues within a few days 🔄",
+        "Items must be unused and in original condition 👍"
+      ]
+    },
+
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "Track my order",
+        "Where is my order?",
+        "Order status?"
+      ],
+      "responses": [
+        "You can track your order using the tracking number provided 📦",
+        "Contact us with your order ID and we’ll help you 👍"
+      ]
+    },
+
+    {
+      "tag": "offers",
+      "patterns": [
+        "Any discounts?",
+        "Offers available?",
+        "Promo codes?",
+        "Sales?"
+      ],
+      "responses": [
+        "Yes! We regularly have discounts and seasonal offers 🎉",
+        "Follow us to stay updated on latest deals 👍"
+      ]
+    },
+
+    {
+      "tag": "stock",
+      "patterns": [
+        "Is this in stock?",
+        "Available now?",
+        "Out of stock?"
+      ],
+      "responses": [
+        "Stock availability is shown on each product page 📦",
+        "If it's out of stock, it may be restocked soon 👍"
+      ]
+    },
+
+    {
+      "tag": "customization",
+      "patterns": [
+        "Do you customize?",
+        "Can I print my design?",
+        "Custom orders?"
+      ],
+      "responses": [
+        "Currently, we have limited customization options 🎨",
+        "Contact us for special requests 👍"
+      ]
+    },
+
+    {
+      "tag": "care_instructions",
+      "patterns": [
+        "How to wash?",
+        "Care instructions?",
+        "Can I machine wash?"
+      ],
+      "responses": [
+        "Most items are machine washable, but check the label 🧼",
+        "We recommend washing in cold water for durability 👍"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #19191B;
+    border: 15px solid #19191B;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 15px; /* Add border-radius for rounded corners */
+    margin-top: 20px; /* Add margin-top for the gap */
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar li {
+    margin-right: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    align-items: center;
+    justify-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(244, 239, 239);
+}
+
+.navbar .logo {
+    margin-left: 15%;
+    width: 155px;
+    height: 50px;
+}
+
+.search-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-container .ph-magnifying-glass {
+    font-size: 20px;
+    color: #4f4f4f;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 17%;
+}
+
+.icons-container .icon {
+    margin-right: 30px; /* Adjust spacing between icons */
+}
+
+.icons-container .ph-magnifying-glass,
+.icons-container .ph-user-circle,
+.icons-container .ph-shopping-bag {
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.941);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+
+.overlay-content input[type="text"] {
+    padding: 15px 15px 15px 45px; /* Add left padding for the icon */
+    width: 400%;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.overlay-content button {
+    padding: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: -45px; /* Adjust margin to fit inside the input */
+    background-color: transparent; /* Make button background transparent */
+}
+
+.overlay-content button i {
+    font-size: 24px;
+    color: #3b3b3b;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 32px; /* Increase the size for better visibility */
+    color: white; /* Make the close button white to stand out */
+    cursor: pointer;
+}
+
+.search-container i {
+    position: absolute;
+    left: 10px; /* Position icon inside the input */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navbar .logo {
+        margin: 0;
+        width: 120px;
+        height: 40px;
+    }
+
+    .icons-container {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+
+    .icons-container i,
+    .icons-container a {
+        margin-right: 15px;
+    }
+}
